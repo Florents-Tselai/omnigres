@@ -14,7 +14,7 @@ instance:
     as $$
     select replace(replace($code$
     %PREAMBLE%
-    from omni_python import pg
+    from oni_python import pg
     @pg
     def fun(v: %TYPE%) -> %TYPE%:
       return v
